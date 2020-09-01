@@ -371,7 +371,7 @@ private struct StringValues {
         results.append(str)
       }
       else {
-        let str = "Value: \(value)".commentString
+        let str = "Value: \(value)".commentString + " Key: \(key)"
         results.append(str)
       }
     }
